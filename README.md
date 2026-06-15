@@ -4,7 +4,7 @@ A WordPress plugin that removes taxonomy base prefixes and builds breadcrumb-sty
 
 ## How it works
 
-By default, WordPress adds a base prefix to taxonomy URLs — `/category/`, `/tag/`, or any custom taxonomy base. This plugin removes those prefixes and replaces them with breadcrumb-style paths built directly from the term hierarchy:
+By default, WordPress adds a base prefix to taxonomy URLs — `/category/`, `/tag/`, or any custom taxonomy base. This plugin removes those prefixes for all managed taxonomies, and for associated custom post types, builds the permalink from the full term path:
 
 **Taxonomy terms:**
 
