@@ -24,7 +24,7 @@ The plugin works at the permalink and rewrite layer and does not modify stored s
 
 ### WordPress
 
-1. Download the latest release.
+1. Download the latest release from the [releases page](https://github.com/focuslibre/libre-breadcrumb-permalinks/releases).
 2. Extract the `libre-breadcrumb-permalinks` directory into `/wp-content/plugins/`.
 3. Activate the plugin from the WordPress admin panel.
 
