@@ -6,11 +6,18 @@ A WordPress plugin that removes taxonomy base prefixes and builds breadcrumb-sty
 
 By default, WordPress adds a base prefix to taxonomy URLs — `/category/`, `/tag/`, or any custom taxonomy base. This plugin removes those prefixes and replaces them with breadcrumb-style paths built directly from the term hierarchy:
 
+**Taxonomy terms:**
+
 | Before | After |
 |--------|-------|
 | `/category/news/` | `/news/` |
 | `/category/news/local/` | `/news/local/` |
-| `/category/news/local/my-post/` | `/news/local/my-post/` |
+
+**Custom post types:**
+
+| Before | After |
+|--------|-------|
+| `/my-cpt/my-post/` | `/news/local/my-post/` |
 
 For non-hierarchical taxonomies, only the term slug is used:
 
