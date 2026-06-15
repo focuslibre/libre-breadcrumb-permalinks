@@ -19,12 +19,6 @@ By default, WordPress adds a base prefix to taxonomy URLs — `/category/`, `/ta
 |--------|-------|
 | `/my-cpt/my-post/` | `/news/local/my-post/` |
 
-For non-hierarchical taxonomies, only the term slug is used:
-
-| Before | After |
-|--------|-------|
-| `/tag/wordpress/` | `/wordpress/` |
-
 The plugin works at the permalink and rewrite layer and does not modify stored slugs or post content.
 
 ## Installation
