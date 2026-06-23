@@ -62,7 +62,7 @@ Rather than using catch-all patterns, the plugin generates specific rewrite rule
 ## Requirements
 
 - WordPress 4.5+
-- PHP 7.0+
+- PHP 5.4+
 
 ## License
 
