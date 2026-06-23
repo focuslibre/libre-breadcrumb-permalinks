@@ -5,7 +5,7 @@
  * Description:       Removes taxonomy base prefixes and builds breadcrumb-style permalinks from term hierarchies.
  * Version:           1.0.0
  * Requires at least: 4.5
- * Requires PHP:      7.0
+ * Requires PHP:      5.4
  * Author:            Luc André
  * Author URI:        https://focuslibre.fr.eu.org
  * License:           GPL v3
